@@ -1,0 +1,280 @@
+PODS:
+  - Alamofire (5.9.0)
+  - AppAuth (1.7.1):
+    - AppAuth/Core (= 1.7.1)
+    - AppAuth/ExternalUserAgent (= 1.7.1)
+  - AppAuth/Core (1.7.1)
+  - AppAuth/ExternalUserAgent (1.7.1):
+    - AppAuth/Core
+  - awesome_notifications (0.8.1):
+    - Flutter
+    - IosAwnCore (~> 0.8.0)
+  - DKImagePickerController/Core (4.3.4):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.4)
+  - DKImagePickerController/PhotoGallery (4.3.4):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.4)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Firebase/Auth (10.18.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.18.0)
+  - Firebase/CoreOnly (10.18.0):
+    - FirebaseCore (= 10.18.0)
+  - Firebase/Storage (10.18.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 10.18.0)
+  - firebase_auth (4.15.0):
+    - Firebase/Auth (= 10.18.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (2.24.0):
+    - Firebase/CoreOnly (= 10.18.0)
+    - Flutter
+  - firebase_storage (11.5.3):
+    - Firebase/Storage (= 10.18.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAppCheckInterop (10.22.0)
+  - FirebaseAuth (10.18.0):
+    - FirebaseAppCheckInterop (~> 10.17)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseAuthInterop (10.22.0)
+  - FirebaseCore (10.18.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreExtension (10.22.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.22.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseStorage (10.18.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - Flutter (1.0.0)
+  - flutter_osm_plugin (0.0.1):
+    - Alamofire
+    - Flutter
+    - Polyline
+    - Tangram-es
+    - Yams
+  - FMDB (2.7.9):
+    - FMDB/standard (= 2.7.9)
+  - FMDB/standard (2.7.9)
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - google_sign_in_ios (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 7.0)
+  - GoogleSignIn (7.0.0):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (< 3.0, >= 1.3)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.13.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (7.13.0):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (7.13.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.13.0)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.0)
+  - GoogleUtilities/Reachability (7.13.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GTMAppAuth (2.0.0):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.5)
+  - GTMSessionFetcher/Core (3.3.1)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - IosAwnCore (0.8.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - Polyline (5.1.0)
+  - PromisesObjC (2.4.0)
+  - RecaptchaInterop (100.0.0)
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - SwiftyGif (5.4.4)
+  - Tangram-es (0.17.1)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - Yams (5.0.6)
+
+DEPENDENCIES:
+  - awesome_notifications (from `.symlinks/plugins/awesome_notifications/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_storage (from `.symlinks/plugins/firebase_storage/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_osm_plugin (from `.symlinks/plugins/flutter_osm_plugin/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
+  - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - DKImagePickerController
+    - DKPhotoGallery
+    - Firebase
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseStorage
+    - FMDB
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IosAwnCore
+    - Polyline
+    - PromisesObjC
+    - RecaptchaInterop
+    - SDWebImage
+    - SwiftyGif
+    - Tangram-es
+    - Yams
+
+EXTERNAL SOURCES:
+  awesome_notifications:
+    :path: ".symlinks/plugins/awesome_notifications/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_storage:
+    :path: ".symlinks/plugins/firebase_storage/ios"
+  Flutter:
+    :path: Flutter
+  flutter_osm_plugin:
+    :path: ".symlinks/plugins/flutter_osm_plugin/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
+  google_sign_in_ios:
+    :path: ".symlinks/plugins/google_sign_in_ios/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  Alamofire: 02b772c9910e8eba1a079227c32fbd9e46c90a24
+  AppAuth: e93b919be5dbcbba49555011ce94f7d716368574
+  awesome_notifications: db394d2e061e4583ba0f738ddea611e3986cc3fb
+  DKImagePickerController: b512c28220a2b8ac7419f21c491fc8534b7601ac
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  file_picker: 15fd9539e4eb735dc54bae8c0534a7a9511a03de
+  Firebase: 414ad272f8d02dfbf12662a9d43f4bba9bec2a06
+  firebase_auth: 02d1a6340f81020cc302fb8fea8518908c546cec
+  firebase_core: f802c5c1f6caff9b8d38b591a36e7b25f8878936
+  firebase_storage: 95b470ab32351049dfd3d97b595460ce7a189971
+  FirebaseAppCheckInterop: 58db3e9494751399cf3e7b7e3e705cff71099153
+  FirebaseAuth: 12314b438fa76048540c8fb86d6cfc9e08595176
+  FirebaseAuthInterop: fa6a29d88cf7d5649cf6f4284918a8b7627e98a9
+  FirebaseCore: 2322423314d92f946219c8791674d2f3345b598f
+  FirebaseCoreExtension: 6394c00b887d0bebadbc7049c464aa0cbddc5d41
+  FirebaseCoreInternal: bca337352024b18424a61e478460547d46c4c753
+  FirebaseStorage: 8333c4b183764cdd170d9539a61322b71c23adff
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_osm_plugin: a661df71d2a3d1698ee410dd2272c8536f9e46f4
+  FMDB: aa44149f6fb634b1ac54f64f47064bb0d0c5a032
+  geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
+  google_sign_in_ios: 8115e3fbe097e6509beb819ed602d47369d9011f
+  GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
+  GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
+  GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
+  GTMSessionFetcher: 8a1b34ad97ebe6f909fb8b9b77fba99943007556
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  IosAwnCore: ed1b2b6d84962a758354dbacd9ce525c72ce28a9
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+  Tangram-es: 628b634f7fc09d2217469b9914de00d9de49ff9d
+  url_launcher_ios: bf5ce03e0e2088bad9cc378ea97fa0ed5b49673b
+  Yams: e10dae147f517ed57ecae37c5e8681bdf8fcab65
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
